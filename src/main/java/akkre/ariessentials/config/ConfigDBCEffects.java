@@ -74,6 +74,20 @@ public class ConfigDBCEffects
     public static double HumanSpiritWil = 1.0;
     public static int HumanSpiritLength = 360;
 
+    /** NEW CONTENT!!! /
+     *
+     */
+
+    public final static String JoinBug = "JoinBug";
+    public static double JoinMulti = 2.0;
+
+    public final static String MagicInfusion = "Magic_Infusion";
+    public static double Magic_Strength = 0.2;
+    public static double Magic_Dex = 0.25;
+    public static double Magic_Will = 1.2;
+    public static int Magic_EffectLength = 300;
+    public static double Magic_KiDrain = -0.1;
+
     /**
      * Ugly, roundabout way of persisting configs between multiplayer and singleplayer.
      *
@@ -125,6 +139,12 @@ public class ConfigDBCEffects
             FOM_EffectLength = config.get(FRUITOFMIGHT, "Effect Time", 90, "Amount of time in seconds the Fruit of Might Effect is applied for").getInt(90);
             FOM_KiDrain = config.get(FRUITOFMIGHT, "Effect Drain", -0.8, "Ki Drain Percent per Second").getDouble(-0.8);
 
+            Magic_Strength = config.get(MagicInfusion, "Strength Multi", 0.2, "Amount added to Strength Multi [EX: Form is 1.5x and Magic Infuse is x0.5. Total is: x2.0]").getDouble(0.2);
+            Magic_Dex = config.get(MagicInfusion, "Dex Multi", 0.25, "Amount added to Dex Multi").getDouble(0.25);
+            Magic_Will = config.get(MagicInfusion, "Will Multi", 1.25, "Amount added to Will Multi").getDouble(1.25);
+            Magic_EffectLength = config.get(MagicInfusion, "Effect Time", 300, "Amount of time in seconds the Magic Infuse Effect is applied for").getInt(300);
+            Magic_KiDrain = config.get(MagicInfusion, "Effect Drain", -0.1, "Ki Drain Percent per Second").getDouble(-0.1);
+
             config.addCustomCategoryComment(ZENKAI,
                 "Zenkai will occur when a Saiyan or Half Saiyan dies. This can be disabled in\n" +
                         "the DBC Gameplay Config. If the Zenaki effect is given to a none Saiyan. It will\n" +
@@ -149,6 +169,11 @@ public class ConfigDBCEffects
             TierOneMulti = config.get(Potara, "Tier 1 Multi", 0.5f).getDouble(0.5f);
             TierTwoMulti = config.get(Potara, "Tier 2 Multi", 0.7f).getDouble(0.7f);
             TierThreeMulti = config.get(Potara, "Tier 3 Multi", 1.0f).getDouble(1.0f);
+
+            config.addCustomCategoryComment(JoinBug,
+                "If the Join Bug Fusion Status Effect Multi is set to 0 or below, then the Status Effect will not be applied" +
+                    "\nThis mutli is added (not multiplied) to [Str, Dex, Wil]");
+            JoinMulti = config.get(JoinBug, "JoinMulti", 2.0f).getDouble(2.0f);
 
             OVERPOWER_AMOUNT = config.get(OVERPOWER, "Overpower Amount", 25,
                 "Overpower allows a player to increase their release above their natural limit. Potential Unlock Level \n" +

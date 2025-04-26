@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.command;
+package akkre.ariessentials.command;
 
 import kamkeel.command.CommandKamkeelBase;
 import kamkeel.npcdbc.controllers.StatusEffectController;

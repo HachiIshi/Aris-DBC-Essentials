@@ -4,7 +4,7 @@ plugins {
     id 'com.gtnewhorizons.gtnhconvention'
 }
 
-version = "1.0.2"
-group= "kamkeel.npcdbc"
+version = "0.5.0"
+group= "akkre.ariessentials"
 
 tasks.runServer { setWorkingDir(file("run/server")) }
