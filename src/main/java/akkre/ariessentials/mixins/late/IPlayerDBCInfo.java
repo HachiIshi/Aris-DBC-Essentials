@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
-import kamkeel.npcdbc.data.PlayerDBCInfo;
+import akkre.ariessentials.data.PlayerDBCInfo;
 
 public interface IPlayerDBCInfo {
     PlayerDBCInfo getPlayerDBCInfo();

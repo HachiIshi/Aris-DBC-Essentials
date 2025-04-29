@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.client.gui.component;
+package akkre.ariessentials.client.gui.component;
 
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.aura.DBCRequestAura;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.aura.DBCRequestAura;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.gui.util.*;
 

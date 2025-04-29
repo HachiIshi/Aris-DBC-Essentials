@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.util;
+package akkre.ariessentials.util;
 
 import JinRyuu.DragonBC.common.DBCConfig;
 import JinRyuu.DragonBC.common.Items.ItemsDBC;
@@ -13,13 +13,13 @@ import JinRyuu.JRMCore.server.config.dbc.JGConfigRaces;
 import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.api.npc.IDBCStats;
-import kamkeel.npcdbc.client.ClientCache;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.items.ItemPotara;
-import kamkeel.npcdbc.scripted.DBCEventHooks;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
+import akkre.ariessentials.api.npc.IDBCStats;
+import akkre.ariessentials.client.ClientCache;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.items.ItemPotara;
+import akkre.ariessentials.scripted.DBCEventHooks;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IProjectile;

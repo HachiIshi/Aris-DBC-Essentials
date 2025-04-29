@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.controllers.DBCSyncController;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.util.ByteBufUtils;
+import akkre.ariessentials.controllers.DBCSyncController;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.util.ByteBufUtils;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.constants.EnumPacketClient;

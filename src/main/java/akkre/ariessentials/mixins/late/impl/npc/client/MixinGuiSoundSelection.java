@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
-import kamkeel.npcdbc.client.gui.global.auras.SubGuiAuraDisplay;
+import akkre.ariessentials.client.gui.global.auras.SubGuiAuraDisplay;
 import noppes.npcs.client.controllers.MusicController;
 import noppes.npcs.client.gui.select.GuiSoundSelection;
 import org.spongepowered.asm.mixin.Mixin;

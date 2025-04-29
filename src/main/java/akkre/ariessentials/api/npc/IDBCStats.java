@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.npc;
+package akkre.ariessentials.api.npc;
 
 public interface IDBCStats {
     void setRelease(byte release);

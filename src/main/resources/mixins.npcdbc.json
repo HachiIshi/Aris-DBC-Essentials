@@ -1,8 +1,8 @@
 {
   "required": true,
   "minVersion": "0.7.11",
-  "package": "kamkeel.npcdbc.mixins.early.impl",
-  "plugin": "kamkeel.npcdbc.mixins.early.NPCDBCEarlyMixins",
+  "package": "akkre.ariessentials.mixins.early.impl",
+  "plugin": "akkre.ariessentials.mixins.early.NPCDBCEarlyMixins",
   "refmap": "mixins.npcdbc.refmap.json",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",

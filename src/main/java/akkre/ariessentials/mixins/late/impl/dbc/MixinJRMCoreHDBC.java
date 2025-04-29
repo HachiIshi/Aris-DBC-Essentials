@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCoreHDBC;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalFloatRef;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.ClientCache;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.ClientCache;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
-import kamkeel.npcdbc.data.npc.DBCStats;
+import akkre.ariessentials.data.npc.DBCStats;
 
 public interface INPCStats {
     DBCStats getDBCStats();

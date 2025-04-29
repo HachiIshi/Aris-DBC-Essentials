@@ -1,16 +1,16 @@
-package kamkeel.npcdbc.items.capsules;
+package akkre.ariessentials.items.capsules;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.LocalizationHelper;
-import kamkeel.npcdbc.config.ConfigCapsules;
-import kamkeel.npcdbc.constants.Capsule;
-import kamkeel.npcdbc.constants.enums.EnumRegenCapsules;
-import kamkeel.npcdbc.controllers.CapsuleController;
-import kamkeel.npcdbc.controllers.StatusEffectController;
-import kamkeel.npcdbc.scripted.DBCEventHooks;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.LocalizationHelper;
+import akkre.ariessentials.config.ConfigCapsules;
+import akkre.ariessentials.constants.Capsule;
+import akkre.ariessentials.constants.enums.EnumRegenCapsules;
+import akkre.ariessentials.controllers.CapsuleController;
+import akkre.ariessentials.controllers.StatusEffectController;
+import akkre.ariessentials.scripted.DBCEventHooks;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;

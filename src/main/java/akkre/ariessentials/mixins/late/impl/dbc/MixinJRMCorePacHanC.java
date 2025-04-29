@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCorePacHanC;
 import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
@@ -6,7 +6,7 @@ import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalIntRef;
 import cpw.mods.fml.common.network.ByteBufUtils;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.util.DBCUtils;
+import akkre.ariessentials.util.DBCUtils;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.api.aura;
+package akkre.ariessentials.api.aura;
 
-import kamkeel.npcdbc.data.aura.Aura;
+import akkre.ariessentials.data.aura.Aura;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.api.entity.IPlayer;
 

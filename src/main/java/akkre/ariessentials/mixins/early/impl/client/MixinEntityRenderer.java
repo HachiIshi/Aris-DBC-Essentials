@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalRef;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.shader.PostProcessing;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.DBCUtils;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.shader.PostProcessing;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.DBCUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.EntityRenderer;
 import net.minecraft.client.renderer.ItemRenderer;

@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.controllers;
+package akkre.ariessentials.controllers;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.constants.enums.EnumPotaraTypes;
-import kamkeel.npcdbc.data.FuseRequest;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.items.ItemPotara;
-import kamkeel.npcdbc.network.NetworkUtility;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.constants.enums.EnumPotaraTypes;
+import akkre.ariessentials.data.FuseRequest;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.items.ItemPotara;
+import akkre.ariessentials.network.NetworkUtility;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;

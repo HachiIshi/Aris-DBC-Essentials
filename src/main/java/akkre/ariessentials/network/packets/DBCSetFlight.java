@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import JinRyuu.DragonBC.common.DBCClient;
 import JinRyuu.DragonBC.common.DBCKiTech;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.network.AbstractPacket;
+import akkre.ariessentials.network.AbstractPacket;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.io.IOException;

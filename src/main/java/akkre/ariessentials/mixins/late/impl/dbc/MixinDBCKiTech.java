@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.DragonBC.common.DBCKiTech;
 import JinRyuu.JRMCore.JRMCoreConfig;
@@ -7,25 +7,25 @@ import JinRyuu.JRMCore.JRMCoreKeyHandler;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalBooleanRef;
 import com.llamalad7.mixinextras.sugar.ref.LocalRef;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.client.ClientCache;
-import kamkeel.npcdbc.client.sound.ClientSound;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.constants.enums.EnumNBTType;
-import kamkeel.npcdbc.controllers.TransformController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.entity.EntityAura;
-import kamkeel.npcdbc.mixins.late.IEntityAura;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.DBCSetValPacket;
-import kamkeel.npcdbc.network.packets.TransformPacket;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.client.ClientCache;
+import akkre.ariessentials.client.sound.ClientSound;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.constants.enums.EnumNBTType;
+import akkre.ariessentials.controllers.TransformController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.entity.EntityAura;
+import akkre.ariessentials.mixins.late.IEntityAura;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.DBCSetValPacket;
+import akkre.ariessentials.network.packets.TransformPacket;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityClientPlayerMP;
 import net.minecraft.client.settings.KeyBinding;
@@ -39,7 +39,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static kamkeel.npcdbc.constants.DBCForm.UltraInstinct;
+import static akkre.ariessentials.constants.DBCForm.UltraInstinct;
 
 @Mixin(value = DBCKiTech.class, remap = false)
 public abstract class MixinDBCKiTech {

@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.model.ModelDBC;
-import kamkeel.npcdbc.client.render.OutlineRenderer;
-import kamkeel.npcdbc.client.render.RenderEventHandler;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.mixins.late.IModelMPM;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.model.ModelDBC;
+import akkre.ariessentials.client.render.OutlineRenderer;
+import akkre.ariessentials.client.render.RenderEventHandler;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.mixins.late.IModelMPM;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.entity.Entity;
@@ -23,7 +23,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static kamkeel.npcdbc.client.shader.PostProcessing.*;
+import static akkre.ariessentials.client.shader.PostProcessing.*;
 import static org.lwjgl.opengl.GL11.*;
 
 @Mixin(value = ModelMPM.class, remap = false)

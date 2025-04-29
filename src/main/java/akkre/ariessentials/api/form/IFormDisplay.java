@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.api.form;
+package akkre.ariessentials.api.form;
 
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.outline.IOutline;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.outline.IOutline;
 
 /**
  * This interface is heavily based on how DBC calculates its form masteries. Please check any race's form_mastery.cfg config to

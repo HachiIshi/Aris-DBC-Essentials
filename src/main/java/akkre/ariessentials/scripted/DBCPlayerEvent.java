@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.scripted;
+package akkre.ariessentials.scripted;
 
 
 import cpw.mods.fml.common.eventhandler.Cancelable;
-import kamkeel.npcdbc.api.event.IDBCEvent;
-import kamkeel.npcdbc.constants.Capsule;
-import kamkeel.npcdbc.constants.DBCDamageSource;
-import kamkeel.npcdbc.constants.DBCScriptType;
-import kamkeel.npcdbc.constants.enums.*;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.api.event.IDBCEvent;
+import akkre.ariessentials.constants.Capsule;
+import akkre.ariessentials.constants.DBCDamageSource;
+import akkre.ariessentials.constants.DBCScriptType;
+import akkre.ariessentials.constants.enums.*;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.client.renderer.entity.RenderPlayer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;

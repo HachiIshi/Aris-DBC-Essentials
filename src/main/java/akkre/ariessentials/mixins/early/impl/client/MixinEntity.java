@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
 
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.mixins.early.IEntityMC;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.mixins.early.IEntityMC;
 import net.minecraft.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

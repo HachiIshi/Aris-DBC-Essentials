@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.api.npc;
+package akkre.ariessentials.api.npc;
 
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
 
 public interface IDBCDisplay {
     void setColor(String type, int color);

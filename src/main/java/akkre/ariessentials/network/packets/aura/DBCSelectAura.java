@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.network.packets.aura;
+package akkre.ariessentials.network.packets.aura;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.NetworkUtility;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.NetworkUtility;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;

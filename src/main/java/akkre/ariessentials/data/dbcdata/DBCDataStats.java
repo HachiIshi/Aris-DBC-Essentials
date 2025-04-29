@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.data.dbcdata;
+package akkre.ariessentials.data.dbcdata;
 
 import JinRyuu.JRMCore.JRMCoreConfig;
 import JinRyuu.JRMCore.JRMCoreH;
@@ -7,13 +7,13 @@ import JinRyuu.JRMCore.server.config.dbc.JGConfigRaces;
 import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.controllers.StatusEffectController;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.util.DBCUtils;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.controllers.StatusEffectController;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.util.DBCUtils;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;

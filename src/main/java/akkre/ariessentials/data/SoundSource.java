@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.data;
+package akkre.ariessentials.data;
 
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.Entity;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;

@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.constants.enums;
+package akkre.ariessentials.constants.enums;
 
-import kamkeel.npcdbc.constants.Effects;
+import akkre.ariessentials.constants.Effects;
 
-import static kamkeel.npcdbc.config.ConfigCapsules.*;
+import static akkre.ariessentials.config.ConfigCapsules.*;
 
 
 public enum EnumRegenCapsules {

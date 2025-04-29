@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data;
+package akkre.ariessentials.data;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.api.IKiAttack;
+import akkre.ariessentials.api.IKiAttack;
 import noppes.npcs.util.ValueUtil;
 
 public class KiAttack implements IKiAttack {

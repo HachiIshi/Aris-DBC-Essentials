@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.client.modern;
+package akkre.ariessentials.client.modern;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static kamkeel.npcdbc.client.modern.ModernGLHelper.createVAO;
-import static kamkeel.npcdbc.client.modern.ModernGLHelper.drawWorkingQuad;
+import static akkre.ariessentials.client.modern.ModernGLHelper.createVAO;
+import static akkre.ariessentials.client.modern.ModernGLHelper.drawWorkingQuad;
 
 public class ModernModels {
     public static Map<Integer, ModernModel> loadedModels = new HashMap();

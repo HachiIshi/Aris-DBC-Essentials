@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
-import kamkeel.npcdbc.client.model.ModelDBC;
+import akkre.ariessentials.client.model.ModelDBC;
 import net.minecraft.client.model.ModelBase;
 import org.spongepowered.asm.mixin.Unique;
 

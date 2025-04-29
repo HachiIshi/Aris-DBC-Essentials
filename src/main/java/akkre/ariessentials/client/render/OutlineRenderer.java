@@ -1,20 +1,20 @@
-package kamkeel.npcdbc.client.render;
+package akkre.ariessentials.client.render;
 
 import JinRyuu.JBRA.RenderPlayerJBRA;
 import JinRyuu.JRMCore.JRMCoreH;
 import JinRyuu.JRMCore.client.config.jrmc.JGConfigClientSettings;
 import JinRyuu.JRMCore.i.ExtendedPlayer;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.model.part.hair.DBCHair;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
-import kamkeel.npcdbc.client.shader.ShaderResources;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.util.DBCUtils;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.model.part.hair.DBCHair;
+import akkre.ariessentials.client.shader.ShaderHelper;
+import akkre.ariessentials.client.shader.ShaderResources;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.util.DBCUtils;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -22,8 +22,8 @@ import noppes.npcs.client.model.ModelMPM;
 import noppes.npcs.entity.EntityCustomNpc;
 import org.lwjgl.opengl.GL11;
 
-import static kamkeel.npcdbc.client.render.RenderEventHandler.disableStencilWriting;
-import static kamkeel.npcdbc.client.shader.ShaderHelper.*;
+import static akkre.ariessentials.client.render.RenderEventHandler.disableStencilWriting;
+import static akkre.ariessentials.client.shader.ShaderHelper.*;
 import static org.lwjgl.opengl.GL11.*;
 
 public class OutlineRenderer {

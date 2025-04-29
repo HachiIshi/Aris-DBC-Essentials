@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc.client;
+package akkre.ariessentials.mixins.late.impl.dbc.client;
 
 import JinRyuu.DragonBC.common.DBCClientTickHandler;
 import JinRyuu.JRMCore.JRMCoreH;

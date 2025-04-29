@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.client.gui.component;
+package akkre.ariessentials.client.gui.component;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormKaiokenStackableData;
-import kamkeel.npcdbc.data.form.FormStackable;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormKaiokenStackableData;
+import akkre.ariessentials.data.form.FormStackable;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.CustomNpcResourceListener;
 import noppes.npcs.client.gui.util.*;

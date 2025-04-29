@@ -1,10 +1,10 @@
-package kamkeel.npcdbc;
+package akkre.ariessentials;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class NPCEventHandler {

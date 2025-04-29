@@ -1,19 +1,19 @@
-package kamkeel.npcdbc.client.model.part;
+package akkre.ariessentials.client.model.part;
 
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.model.ModelDBCPartInterface;
-import kamkeel.npcdbc.client.render.RenderEventHandler;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormDisplay;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.model.ModelDBCPartInterface;
+import akkre.ariessentials.client.render.RenderEventHandler;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.client.model.ModelRenderer;
 import noppes.npcs.client.model.ModelMPM;
 import noppes.npcs.entity.data.ModelData;
 import noppes.npcs.entity.data.ModelPartData;
 import org.lwjgl.opengl.GL11;
 
-import static kamkeel.npcdbc.client.render.RenderEventHandler.disableStencilWriting;
+import static akkre.ariessentials.client.render.RenderEventHandler.disableStencilWriting;
 
 public class DBCEars extends ModelDBCPartInterface {
 

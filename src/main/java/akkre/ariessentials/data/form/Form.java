@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.form.IFormDisplay;
-import kamkeel.npcdbc.api.form.IFormMastery;
-import kamkeel.npcdbc.api.form.IFormStackable;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.form.IFormDisplay;
+import akkre.ariessentials.api.form.IFormMastery;
+import akkre.ariessentials.api.form.IFormStackable;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.NBTTags;

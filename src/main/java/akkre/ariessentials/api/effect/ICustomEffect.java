@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.effect;
+package akkre.ariessentials.api.effect;
 
 public interface ICustomEffect extends IStatusEffect {
 

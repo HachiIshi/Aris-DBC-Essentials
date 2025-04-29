@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.client.gui.global.form;
+package akkre.ariessentials.client.gui.global.form;
 
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormMastery;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormMastery;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.gui.util.*;
 import noppes.npcs.util.ValueUtil;

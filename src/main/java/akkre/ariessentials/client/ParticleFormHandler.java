@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
 import JinRyuu.JRMCore.client.config.jrmc.JGConfigClientSettings;
 import JinRyuu.JRMCore.entity.EntityCusPar;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
-import kamkeel.npcdbc.data.IAuraData;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.data.IAuraData;
+import akkre.ariessentials.data.npc.DBCDisplay;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;

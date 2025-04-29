@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.command;
+package akkre.ariessentials.command;
 
 import JinRyuu.JRMCore.JRMCoreH;
 import kamkeel.command.CommandKamkeelBase;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.controllers.TransformController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.scripted.DBCAPI;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.controllers.TransformController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.scripted.DBCAPI;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import noppes.npcs.api.entity.IPlayer;

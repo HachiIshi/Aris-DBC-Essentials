@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCoreCliTicH;
 import JinRyuu.JRMCore.JRMCoreClient;
 import JinRyuu.JRMCore.JRMCoreH;
 import com.llamalad7.mixinextras.sugar.Local;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.npc.DBCStats;
-import kamkeel.npcdbc.mixins.late.INPCStats;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.npc.DBCStats;
+import akkre.ariessentials.mixins.late.INPCStats;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.entity.EntityNPCInterface;

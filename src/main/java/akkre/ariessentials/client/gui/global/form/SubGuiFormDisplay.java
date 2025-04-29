@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.client.gui.global.form;
+package akkre.ariessentials.client.gui.global.form;
 
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectAura;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormDisplay;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
+import akkre.ariessentials.client.gui.component.SubGuiSelectAura;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.RenderHelper;

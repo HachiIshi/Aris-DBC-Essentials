@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.form;
+package akkre.ariessentials.api.form;
 
 /**
  * This interface is heavily based on how DBC calculates its form masteries. Please check any race's form_mastery.cfg config to

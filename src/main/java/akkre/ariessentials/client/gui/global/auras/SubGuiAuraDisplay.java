@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.client.gui.global.auras;
+package akkre.ariessentials.client.gui.global.auras;
 
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectAura;
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectOutline;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes3D;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.controllers.OutlineController;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.aura.AuraDisplay;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.entity.EntityAura;
+import akkre.ariessentials.client.gui.component.SubGuiSelectAura;
+import akkre.ariessentials.client.gui.component.SubGuiSelectOutline;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.constants.enums.EnumAuraTypes3D;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.controllers.OutlineController;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.aura.AuraDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.entity.EntityAura;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.OpenGlHelper;
@@ -24,9 +24,9 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
-import static kamkeel.npcdbc.client.ClientEventHandler.spawnAura;
-import static kamkeel.npcdbc.client.ClientEventHandler.spawnKaiokenAura;
-import static kamkeel.npcdbc.constants.enums.EnumAuraTypes3D.*;
+import static akkre.ariessentials.client.ClientEventHandler.spawnAura;
+import static akkre.ariessentials.client.ClientEventHandler.spawnKaiokenAura;
+import static akkre.ariessentials.constants.enums.EnumAuraTypes3D.*;
 
 public class SubGuiAuraDisplay extends GuiNPCInterface implements ISubGuiListener, GuiSelectionListener, ITextfieldListener {
     public static boolean useGUIAura;

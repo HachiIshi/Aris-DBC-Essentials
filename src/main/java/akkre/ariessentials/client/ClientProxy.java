@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -6,14 +6,14 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.client.render.AuraRenderer;
-import kamkeel.npcdbc.client.render.PotaraItemRenderer;
-import kamkeel.npcdbc.client.render.RenderEventHandler;
-import kamkeel.npcdbc.client.shader.PostProcessing;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
-import kamkeel.npcdbc.entity.EntityAura;
-import kamkeel.npcdbc.items.ModItems;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.client.render.AuraRenderer;
+import akkre.ariessentials.client.render.PotaraItemRenderer;
+import akkre.ariessentials.client.render.RenderEventHandler;
+import akkre.ariessentials.client.shader.PostProcessing;
+import akkre.ariessentials.client.shader.ShaderHelper;
+import akkre.ariessentials.entity.EntityAura;
+import akkre.ariessentials.items.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;

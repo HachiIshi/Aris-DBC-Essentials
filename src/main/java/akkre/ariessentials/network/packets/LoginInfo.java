@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import JinRyuu.DragonBC.common.DBCConfig;
 import JinRyuu.JRMCore.server.config.dbc.JGConfigRaces;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.client.ClientCache;
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.constants.DBCClass;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.util.ByteBufUtils;
+import akkre.ariessentials.client.ClientCache;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.constants.DBCClass;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.util.ByteBufUtils;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;

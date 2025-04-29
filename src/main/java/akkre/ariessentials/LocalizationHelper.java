@@ -1,4 +1,4 @@
-package kamkeel.npcdbc;
+package akkre.ariessentials;
 
 import net.minecraft.util.StatCollector;
 

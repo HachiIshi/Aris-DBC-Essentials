@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.form.IFormDisplay;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.controllers.OutlineController;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.api.outline.IOutline;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.form.IFormDisplay;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.controllers.OutlineController;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.api.outline.IOutline;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.scripted.CustomNPCsException;
 import noppes.npcs.util.ValueUtil;

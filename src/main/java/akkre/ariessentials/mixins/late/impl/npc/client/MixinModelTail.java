@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.render.RenderEventHandler;
-import kamkeel.npcdbc.client.utils.Color;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.render.RenderEventHandler;
+import akkre.ariessentials.client.utils.Color;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.util.ResourceLocation;
 import noppes.npcs.client.ClientProxy;
@@ -24,7 +24,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static kamkeel.npcdbc.client.render.RenderEventHandler.disableStencilWriting;
+import static akkre.ariessentials.client.render.RenderEventHandler.disableStencilWriting;
 import static org.lwjgl.opengl.GL11.glTranslatef;
 
 @Mixin(value = ModelTail.class, remap = false)
@@ -56,10 +56,10 @@ public abstract class MixinModelTail extends ModelScaleRenderer {
             if (display == null || !display.enabled)
                 return;
 
-            if (!kamkeel.npcdbc.client.ClientProxy.renderingOutline && display.outlineID != -1)
+            if (!akkre.ariessentials.client.ClientProxy.renderingOutline && display.outlineID != -1)
                 RenderEventHandler.enableStencilWriting((entity.getEntityId() + RenderEventHandler.TAIL_STENCIL_ID) % 256);
 
-            if (kamkeel.npcdbc.client.ClientProxy.renderingOutline) {
+            if (akkre.ariessentials.client.ClientProxy.renderingOutline) {
                 if (!monkey.monkey_wrapped.isHidden)
                     glTranslatef(0, 0.0375f, 0);
                 else {
@@ -138,10 +138,10 @@ public abstract class MixinModelTail extends ModelScaleRenderer {
     private void after(float par1, CallbackInfo ci) {
         DBCDisplay display = ((INPCDisplay) entity.display).getDBCDisplay();
 
-        if (!kamkeel.npcdbc.client.ClientProxy.renderingOutline && display.outlineID != -1)
+        if (!akkre.ariessentials.client.ClientProxy.renderingOutline && display.outlineID != -1)
             RenderEventHandler.enableStencilWriting((entity.getEntityId() + RenderEventHandler.TAIL_STENCIL_ID) % 256);
 
-        if (kamkeel.npcdbc.client.ClientProxy.renderingOutline)
+        if (akkre.ariessentials.client.ClientProxy.renderingOutline)
             disableStencilWriting((entity.getEntityId()) % 256, false);
 
     }

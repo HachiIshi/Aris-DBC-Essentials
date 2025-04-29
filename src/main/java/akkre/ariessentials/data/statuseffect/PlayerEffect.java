@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data.statuseffect;
+package akkre.ariessentials.data.statuseffect;
 
-import kamkeel.npcdbc.api.effect.IPlayerEffect;
-import kamkeel.npcdbc.controllers.StatusEffectController;
+import akkre.ariessentials.api.effect.IPlayerEffect;
+import akkre.ariessentials.controllers.StatusEffectController;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.api.entity.IPlayer;

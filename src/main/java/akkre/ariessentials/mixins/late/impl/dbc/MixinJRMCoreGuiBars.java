@@ -1,17 +1,17 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCoreGuiBars;
 import JinRyuu.JRMCore.JRMCoreHC;
 import JinRyuu.JRMCore.client.config.jrmc.JGConfigClientSettings;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalIntRef;
-import kamkeel.npcdbc.LocalizationHelper;
-import kamkeel.npcdbc.client.gui.dbc.AbstractJRMCGui;
-import kamkeel.npcdbc.client.gui.dbc.JRMCoreLabel;
-import kamkeel.npcdbc.controllers.StatusEffectController;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
+import akkre.ariessentials.LocalizationHelper;
+import akkre.ariessentials.client.gui.dbc.AbstractJRMCGui;
+import akkre.ariessentials.client.gui.dbc.JRMCoreLabel;
+import akkre.ariessentials.controllers.StatusEffectController;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.util.ResourceLocation;

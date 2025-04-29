@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.client.gui.global.form;
+package akkre.ariessentials.client.gui.global.form;
 
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.form.DBCSaveForm;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.form.DBCSaveForm;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import noppes.npcs.client.NoppesUtil;

@@ -2,12 +2,12 @@ package akkre.ariessentials.items;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.LocalizationHelper;
-import kamkeel.npcdbc.client.model.ModelPotara;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.constants.enums.EnumMiscCapsules;
-import kamkeel.npcdbc.constants.enums.EnumPotaraTypes;
-import kamkeel.npcdbc.controllers.FusionHandler;
+import akkre.ariessentials.LocalizationHelper;
+import akkre.ariessentials.client.model.ModelPotara;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.constants.enums.EnumMiscCapsules;
+import akkre.ariessentials.constants.enums.EnumPotaraTypes;
+import akkre.ariessentials.controllers.FusionHandler;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;

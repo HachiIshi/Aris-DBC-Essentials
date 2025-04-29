@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.api;
+package akkre.ariessentials.api;
 
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.outline.IOutline;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.outline.IOutline;
 import noppes.npcs.api.entity.IDBCPlayer;
 import noppes.npcs.api.entity.IEntityLivingBase;
 import noppes.npcs.api.entity.IPlayer;

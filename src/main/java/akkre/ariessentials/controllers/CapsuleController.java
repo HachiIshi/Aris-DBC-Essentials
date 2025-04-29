@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.controllers;
+package akkre.ariessentials.controllers;
 
-import kamkeel.npcdbc.config.ConfigCapsules;
-import kamkeel.npcdbc.constants.Capsule;
-import kamkeel.npcdbc.constants.enums.*;
+import akkre.ariessentials.config.ConfigCapsules;
+import akkre.ariessentials.constants.Capsule;
+import akkre.ariessentials.constants.enums.*;
 
 import java.io.*;
 import java.util.HashMap;

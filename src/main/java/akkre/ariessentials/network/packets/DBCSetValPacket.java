@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.constants.enums.EnumNBTType;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.util.ByteBufUtils;
+import akkre.ariessentials.constants.enums.EnumNBTType;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.util.ByteBufUtils;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.io.IOException;

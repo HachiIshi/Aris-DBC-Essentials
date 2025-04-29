@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.data.dbcdata;
+package akkre.ariessentials.data.dbcdata;
 
 import JinRyuu.DragonBC.common.DBCKiTech;
 import JinRyuu.JRMCore.JRMCoreH;
@@ -8,27 +8,27 @@ import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.outline.IOutline;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.controllers.*;
-import kamkeel.npcdbc.data.IAuraData;
-import kamkeel.npcdbc.data.PlayerBonus;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.entity.EntityAura;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.DBCSetFlight;
-import kamkeel.npcdbc.network.packets.DBCUpdateLockOn;
-import kamkeel.npcdbc.network.packets.PingPacket;
-import kamkeel.npcdbc.network.packets.TurboPacket;
-import kamkeel.npcdbc.util.DBCUtils;
-import kamkeel.npcdbc.util.PlayerDataUtil;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.outline.IOutline;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.controllers.*;
+import akkre.ariessentials.data.IAuraData;
+import akkre.ariessentials.data.PlayerBonus;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.entity.EntityAura;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.DBCSetFlight;
+import akkre.ariessentials.network.packets.DBCUpdateLockOn;
+import akkre.ariessentials.network.packets.PingPacket;
+import akkre.ariessentials.network.packets.TurboPacket;
+import akkre.ariessentials.util.DBCUtils;
+import akkre.ariessentials.util.PlayerDataUtil;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -42,7 +42,7 @@ import noppes.npcs.util.ValueUtil;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static kamkeel.npcdbc.constants.DBCForm.*;
+import static akkre.ariessentials.constants.DBCForm.*;
 
 public class DBCData extends DBCDataUniversal implements IAuraData {
 

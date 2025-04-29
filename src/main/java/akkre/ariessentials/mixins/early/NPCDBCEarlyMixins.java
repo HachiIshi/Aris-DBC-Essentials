@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.early;
+package akkre.ariessentials.mixins.early;
 
 
 import org.spongepowered.asm.lib.tree.ClassNode;

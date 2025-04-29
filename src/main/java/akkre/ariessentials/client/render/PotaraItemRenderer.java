@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.client.render;
+package akkre.ariessentials.client.render;
 
-import kamkeel.npcdbc.constants.enums.EnumPotaraTypes;
-import kamkeel.npcdbc.items.ItemPotara;
+import akkre.ariessentials.constants.enums.EnumPotaraTypes;
+import akkre.ariessentials.items.ItemPotara;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.Tessellator;

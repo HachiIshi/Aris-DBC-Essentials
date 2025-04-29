@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.data.statuseffect.types;
+package akkre.ariessentials.data.statuseffect.types;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
 
 public class Exhausted extends StatusEffect {
     public Exhausted() {

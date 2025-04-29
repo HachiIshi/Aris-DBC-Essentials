@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCoreGui;
 import net.minecraft.client.settings.GameSettings;

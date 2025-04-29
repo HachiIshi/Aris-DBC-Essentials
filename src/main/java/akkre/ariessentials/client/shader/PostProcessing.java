@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.client.shader;
+package akkre.ariessentials.client.shader;
 
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.gui.hud.formWheel.HUDFormWheel;
-import kamkeel.npcdbc.config.ConfigDBCClient;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.gui.hud.formWheel.HUDFormWheel;
+import akkre.ariessentials.config.ConfigDBCClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.Tessellator;
@@ -25,7 +25,7 @@ import java.nio.IntBuffer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static kamkeel.npcdbc.client.shader.ShaderHelper.*;
+import static akkre.ariessentials.client.shader.ShaderHelper.*;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL30.GL_FRAMEBUFFER;
 import static org.lwjgl.opengl.GL30.glBindFramebuffer;

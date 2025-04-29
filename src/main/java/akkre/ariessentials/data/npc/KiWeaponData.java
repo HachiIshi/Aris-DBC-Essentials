@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.data.npc;
+package akkre.ariessentials.data.npc;
 
-import kamkeel.npcdbc.api.npc.IKiWeaponData;
-import kamkeel.npcdbc.client.utils.Color;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes3D;
-import kamkeel.npcdbc.data.aura.AuraDisplay;
+import akkre.ariessentials.api.npc.IKiWeaponData;
+import akkre.ariessentials.client.utils.Color;
+import akkre.ariessentials.constants.enums.EnumAuraTypes3D;
+import akkre.ariessentials.data.aura.AuraDisplay;
 import net.minecraft.nbt.NBTTagCompound;
 
 public class KiWeaponData implements IKiWeaponData {

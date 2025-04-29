@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.event;
+package akkre.ariessentials.api.event;
 
 import cpw.mods.fml.common.eventhandler.Cancelable;
 import noppes.npcs.api.IDamageSource;

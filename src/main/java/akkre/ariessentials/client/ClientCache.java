@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
 import JinRyuu.JRMCore.server.config.dbc.JGConfigRaces;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
+import akkre.ariessentials.data.dbcdata.DBCData;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.config.ConfigClient;
 import noppes.npcs.util.CacheHashMap;

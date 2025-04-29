@@ -1,18 +1,18 @@
-package kamkeel.npcdbc.client.model.part.hair;
+package akkre.ariessentials.client.model.part.hair;
 
 import JinRyuu.JBRA.mod_JBRA;
 import JinRyuu.JRMCore.JRMCoreClient;
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.ColorMode;
-import kamkeel.npcdbc.client.model.ModelDBC;
-import kamkeel.npcdbc.client.utils.Color;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormDisplay;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.ColorMode;
+import akkre.ariessentials.client.model.ModelDBC;
+import akkre.ariessentials.client.utils.Color;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.util.ResourceLocation;
 import noppes.npcs.client.ClientProxy;
 import noppes.npcs.client.model.ModelMPM;
@@ -754,7 +754,7 @@ public class DBCHair extends ModelHairRenderer {
         ///////////////////////////////////////////////////////
 
         GL11.glPushMatrix();
-        if (kamkeel.npcdbc.client.ClientProxy.renderingOutline) {
+        if (akkre.ariessentials.client.ClientProxy.renderingOutline) {
             GL11.glScalef(1.04f, 1.04f, 1.04f);
             GL11.glTranslatef(0, 0.03f, 0);
         }

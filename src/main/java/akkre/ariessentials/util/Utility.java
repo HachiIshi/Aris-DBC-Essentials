@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.util;
+package akkre.ariessentials.util;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.client.sound.ClientSound;
-import kamkeel.npcdbc.data.SoundSource;
+import akkre.ariessentials.client.sound.ClientSound;
+import akkre.ariessentials.data.SoundSource;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

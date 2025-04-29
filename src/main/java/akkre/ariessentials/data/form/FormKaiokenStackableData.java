@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.api.form.IFormKaiokenStackables;
+import akkre.ariessentials.api.form.IFormKaiokenStackables;
 import net.minecraft.nbt.NBTTagCompound;
 
 import java.util.Arrays;

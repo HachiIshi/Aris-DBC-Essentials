@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.controllers;
+package akkre.ariessentials.controllers;
 
 import cpw.mods.fml.common.FMLCommonHandler;
-import kamkeel.npcdbc.api.effect.IStatusEffectHandler;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.statuseffect.CustomEffect;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
-import kamkeel.npcdbc.data.statuseffect.types.*;
-import kamkeel.npcdbc.util.PlayerDataUtil;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.api.effect.IStatusEffectHandler;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.statuseffect.CustomEffect;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
+import akkre.ariessentials.data.statuseffect.types.*;
+import akkre.ariessentials.util.PlayerDataUtil;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.api.entity.IPlayer;

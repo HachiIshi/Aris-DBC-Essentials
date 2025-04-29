@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.network.packets.outline;
+package akkre.ariessentials.network.packets.outline;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.controllers.OutlineController;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.NetworkUtility;
+import akkre.ariessentials.controllers.OutlineController;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.NetworkUtility;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;

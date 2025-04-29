@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.form.IFormKaiokenStackables;
-import kamkeel.npcdbc.api.form.IFormStackable;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.controllers.FormController;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.form.IFormKaiokenStackables;
+import akkre.ariessentials.api.form.IFormStackable;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.controllers.FormController;
 import net.minecraft.nbt.NBTTagCompound;
 
 public class FormStackable implements IFormStackable {

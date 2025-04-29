@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.network;
+package akkre.ariessentials.network;
 
 import cpw.mods.fml.common.network.internal.FMLProxyPacket;
 import io.netty.buffer.ByteBuf;

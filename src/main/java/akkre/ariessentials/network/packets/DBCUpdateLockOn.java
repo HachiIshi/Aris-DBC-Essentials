@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import JinRyuu.JRMCore.JRMCoreCliTicH;
 import JinRyuu.JRMCore.JRMCoreConfig;
@@ -7,8 +7,8 @@ import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.mixins.late.INPCStats;
-import kamkeel.npcdbc.network.AbstractPacket;
+import akkre.ariessentials.mixins.late.INPCStats;
+import akkre.ariessentials.network.AbstractPacket;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;

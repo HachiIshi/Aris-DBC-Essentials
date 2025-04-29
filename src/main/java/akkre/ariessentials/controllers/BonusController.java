@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.controllers;
+package akkre.ariessentials.controllers;
 
-import kamkeel.npcdbc.api.effect.IBonusHandler;
-import kamkeel.npcdbc.api.effect.IPlayerBonus;
-import kamkeel.npcdbc.data.PlayerBonus;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.api.effect.IBonusHandler;
+import akkre.ariessentials.api.effect.IPlayerBonus;
+import akkre.ariessentials.data.PlayerBonus;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.api.entity.IPlayer;

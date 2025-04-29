@@ -1,4 +1,4 @@
-package kamkeel.npcdbc;
+package akkre.ariessentials;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -8,10 +8,10 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerAboutToStartEvent;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.config.LoadConfiguration;
-import kamkeel.npcdbc.controllers.*;
-import kamkeel.npcdbc.items.ModItems;
-import kamkeel.npcdbc.network.PacketHandler;
+import akkre.ariessentials.config.LoadConfiguration;
+import akkre.ariessentials.controllers.*;
+import akkre.ariessentials.items.ModItems;
+import akkre.ariessentials.network.PacketHandler;
 
 import java.io.File;
 
@@ -21,7 +21,7 @@ public class CustomNpcPlusDBC {
     public static final String name = "CustomNPC+ DBC Addon";
     public static final String version = "1.0.2";
     public static final String ID = "npcdbc";
-    @SidedProxy(clientSide = "kamkeel.npcdbc.client.ClientProxy", serverSide = "kamkeel.npcdbc.CommonProxy")
+    @SidedProxy(clientSide = "akkre.ariessentials.client.ClientProxy", serverSide = "akkre.ariessentials.CommonProxy")
     public static CommonProxy proxy;
     @Mod.Instance
     public static CustomNpcPlusDBC instance;

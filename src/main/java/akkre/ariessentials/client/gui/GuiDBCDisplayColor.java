@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.client.gui;
+package akkre.ariessentials.client.gui;
 
-import kamkeel.npcdbc.data.npc.DBCDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.util.ResourceLocation;

@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.outline;
+package akkre.ariessentials.api.outline;
 
 public interface IOutlineHandler {
 

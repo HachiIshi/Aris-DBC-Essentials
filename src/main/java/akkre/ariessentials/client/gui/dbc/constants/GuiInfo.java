@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.gui.dbc.constants;
+package akkre.ariessentials.client.gui.dbc.constants;
 
 import JinRyuu.JRMCore.JRMCoreH;
 

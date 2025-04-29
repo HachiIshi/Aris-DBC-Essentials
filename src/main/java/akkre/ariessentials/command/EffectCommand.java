@@ -1,8 +1,8 @@
 package akkre.ariessentials.command;
 
 import kamkeel.command.CommandKamkeelBase;
-import kamkeel.npcdbc.controllers.StatusEffectController;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
+import akkre.ariessentials.controllers.StatusEffectController;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import noppes.npcs.controllers.PlayerDataController;

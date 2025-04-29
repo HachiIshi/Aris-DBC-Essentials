@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.DragonBC.common.Npcs.EntityAura2;
 import JinRyuu.DragonBC.common.Npcs.RenderAura2;
@@ -6,12 +6,12 @@ import JinRyuu.JRMCore.JRMCoreHDBC;
 import JinRyuu.JRMCore.client.config.jrmc.JGConfigClientSettings;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.*;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.gui.global.auras.SubGuiAuraDisplay;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.mixins.late.IEntityAura;
-import kamkeel.npcdbc.mixins.late.IRenderEntityAura2;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.gui.global.auras.SubGuiAuraDisplay;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.mixins.late.IEntityAura;
+import akkre.ariessentials.mixins.late.IRenderEntityAura2;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.RenderManager;

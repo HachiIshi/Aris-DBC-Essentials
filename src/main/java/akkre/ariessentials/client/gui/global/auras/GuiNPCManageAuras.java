@@ -1,19 +1,19 @@
-package kamkeel.npcdbc.client.gui.global.auras;
+package akkre.ariessentials.client.gui.global.auras;
 
-import kamkeel.npcdbc.client.sound.AuraSound;
-import kamkeel.npcdbc.client.sound.SoundHandler;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.aura.AuraDisplay;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.entity.EntityAura;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.aura.DBCGetAura;
-import kamkeel.npcdbc.network.packets.aura.DBCRemoveAura;
-import kamkeel.npcdbc.network.packets.aura.DBCRequestAura;
-import kamkeel.npcdbc.network.packets.aura.DBCSaveAura;
+import akkre.ariessentials.client.sound.AuraSound;
+import akkre.ariessentials.client.sound.SoundHandler;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.aura.AuraDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.entity.EntityAura;
+import akkre.ariessentials.mixins.late.INPCDisplay;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.aura.DBCGetAura;
+import akkre.ariessentials.network.packets.aura.DBCRemoveAura;
+import akkre.ariessentials.network.packets.aura.DBCRequestAura;
+import akkre.ariessentials.network.packets.aura.DBCSaveAura;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiYesNo;
@@ -38,8 +38,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
 
-import static kamkeel.npcdbc.client.ClientEventHandler.spawnAura;
-import static kamkeel.npcdbc.client.ClientEventHandler.spawnKaiokenAura;
+import static akkre.ariessentials.client.ClientEventHandler.spawnAura;
+import static akkre.ariessentials.client.ClientEventHandler.spawnKaiokenAura;
 
 public class GuiNPCManageAuras extends GuiNPCInterface2 implements ICustomScrollListener, IScrollData, IGuiData, ISubGuiListener, GuiYesNoCallback, ITextfieldListener {
     public GuiCustomScroll scrollAuras;

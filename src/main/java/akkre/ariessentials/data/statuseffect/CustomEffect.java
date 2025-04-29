@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.data.statuseffect;
+package akkre.ariessentials.data.statuseffect;
 
-import kamkeel.npcdbc.api.effect.ICustomEffect;
+import akkre.ariessentials.api.effect.ICustomEffect;
 
 public class CustomEffect extends StatusEffect implements ICustomEffect {
     public CustomEffect(int id) {

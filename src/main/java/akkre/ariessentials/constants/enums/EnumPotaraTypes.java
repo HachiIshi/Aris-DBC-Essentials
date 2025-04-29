@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.constants.enums;
+package akkre.ariessentials.constants.enums;
 
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.config.ConfigDBCGameplay;
 
 public enum EnumPotaraTypes {
 

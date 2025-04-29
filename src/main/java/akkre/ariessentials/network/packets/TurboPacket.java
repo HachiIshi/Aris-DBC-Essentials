@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.network.AbstractPacket;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.network.AbstractPacket;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.io.IOException;

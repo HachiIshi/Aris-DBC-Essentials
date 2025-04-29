@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 
 import JinRyuu.JRMCore.JRMCoreConfig;
@@ -13,25 +13,25 @@ import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalIntRef;
 import cpw.mods.fml.common.network.ByteBufUtils;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.config.ConfigDBCGeneral;
-import kamkeel.npcdbc.constants.DBCAttribute;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormKaiokenStackableData;
-import kamkeel.npcdbc.data.form.FormMastery;
-import kamkeel.npcdbc.scripted.DBCEventHooks;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.DBCUtils;
-import kamkeel.npcdbc.util.PlayerDataUtil;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.config.ConfigDBCGeneral;
+import akkre.ariessentials.constants.DBCAttribute;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormKaiokenStackableData;
+import akkre.ariessentials.data.form.FormMastery;
+import akkre.ariessentials.scripted.DBCEventHooks;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.DBCUtils;
+import akkre.ariessentials.util.PlayerDataUtil;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -55,7 +55,7 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 import java.text.DecimalFormat;
 
 import static JinRyuu.JRMCore.JRMCoreH.*;
-import static kamkeel.npcdbc.util.DBCUtils.lastSetDamage;
+import static akkre.ariessentials.util.DBCUtils.lastSetDamage;
 
 @Mixin(value = JRMCoreH.class, remap = false)
 public abstract class MixinJRMCoreH {

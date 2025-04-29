@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data;
+package akkre.ariessentials.data;
 
 import JinRyuu.JRMCore.entity.EntityCusPar;
-import kamkeel.npcdbc.entity.EntityAura;
+import akkre.ariessentials.entity.EntityAura;
 import net.minecraft.entity.Entity;
 
 import java.util.HashMap;

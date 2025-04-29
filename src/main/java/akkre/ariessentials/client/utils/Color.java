@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.client.utils;
+package akkre.ariessentials.client.utils;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
+import akkre.ariessentials.client.shader.ShaderHelper;
 import net.minecraft.nbt.NBTTagCompound;
 import org.lwjgl.opengl.GL11;
 

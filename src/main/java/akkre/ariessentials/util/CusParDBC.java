@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.util;
+package akkre.ariessentials.util;
 
 import JinRyuu.JRMCore.entity.EntityCusPar;
 import net.minecraft.client.entity.EntityPlayerSP;

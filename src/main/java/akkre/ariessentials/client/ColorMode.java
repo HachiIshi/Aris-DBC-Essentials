@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
-import kamkeel.npcdbc.config.ConfigDBCClient;
+import akkre.ariessentials.config.ConfigDBCClient;
 import noppes.npcs.util.ValueUtil;
 import org.lwjgl.opengl.GL11;
 

@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 public class DBCSyncType {
     public static final int FORM = 1;

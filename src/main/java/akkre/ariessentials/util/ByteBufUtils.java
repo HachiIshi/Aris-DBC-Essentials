@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.util;
+package akkre.ariessentials.util;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.nbt.CompressedStreamTools;

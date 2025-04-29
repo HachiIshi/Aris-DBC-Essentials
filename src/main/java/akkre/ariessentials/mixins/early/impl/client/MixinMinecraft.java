@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.shader.PostProcessing;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.shader.PostProcessing;
+import akkre.ariessentials.client.shader.ShaderHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.GameSettings;
 import org.spongepowered.asm.mixin.Mixin;

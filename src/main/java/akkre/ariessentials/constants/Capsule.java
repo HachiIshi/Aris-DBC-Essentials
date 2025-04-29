@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 public class Capsule {
     public static final int MISC = 0;

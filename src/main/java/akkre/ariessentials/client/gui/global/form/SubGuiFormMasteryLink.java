@@ -1,12 +1,12 @@
-package kamkeel.npcdbc.client.gui.global.form;
+package akkre.ariessentials.client.gui.global.form;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.data.form.FormMastery;
-import kamkeel.npcdbc.data.form.FormMasteryLinkData;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.data.form.FormMastery;
+import akkre.ariessentials.data.form.FormMasteryLinkData;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.gui.util.*;
 

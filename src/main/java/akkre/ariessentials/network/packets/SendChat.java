@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.util.ByteBufUtils;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.util.ByteBufUtils;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.StatCollector;
 

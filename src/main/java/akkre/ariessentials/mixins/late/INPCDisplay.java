@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
-import kamkeel.npcdbc.data.npc.DBCDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
 
 public interface INPCDisplay {
     DBCDisplay getDBCDisplay();

@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.client.shader;
+package akkre.ariessentials.client.shader;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
+import akkre.ariessentials.CustomNpcPlusDBC;
 
 public class ShaderResources {
     public static final String PREFIX_SHADER = "/assets/npcdbc/shader/";//CustomNpcPlusDBC.ID + ":shader/";

@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.items;
+package akkre.ariessentials.items;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import kamkeel.npcdbc.LocalizationHelper;
-import kamkeel.npcdbc.config.ConfigCapsules;
-import kamkeel.npcdbc.items.capsules.*;
+import akkre.ariessentials.LocalizationHelper;
+import akkre.ariessentials.config.ConfigCapsules;
+import akkre.ariessentials.items.capsules.*;
 import net.minecraft.item.Item;
 
 public class ModItems {

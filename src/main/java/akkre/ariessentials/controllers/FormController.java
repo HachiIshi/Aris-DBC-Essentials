@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.controllers;
+package akkre.ariessentials.controllers;
 
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.form.IFormHandler;
-import kamkeel.npcdbc.constants.DBCSyncType;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.DBCInfoSync;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.form.IFormHandler;
+import akkre.ariessentials.constants.DBCSyncType;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.DBCInfoSync;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;

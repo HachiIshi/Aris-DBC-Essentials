@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.controllers.CapsuleController;
-import kamkeel.npcdbc.network.AbstractPacket;
+import akkre.ariessentials.controllers.CapsuleController;
+import akkre.ariessentials.network.AbstractPacket;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.io.IOException;

@@ -1,12 +1,12 @@
-package kamkeel.npcdbc.command;
+package akkre.ariessentials.command;
 
 import kamkeel.command.CommandKamkeelBase;
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.scripted.DBCAPI;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.scripted.DBCAPI;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import noppes.npcs.controllers.PlayerDataController;

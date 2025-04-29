@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.client.gui.component;
+package akkre.ariessentials.client.gui.component;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.client.gui.inventory.GuiDBC;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.client.gui.inventory.GuiDBC;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.util.PlayerDataUtil;
 import noppes.npcs.client.gui.util.GuiNpcLabel;
 
 public class GuiFormLabel extends GuiDBC {

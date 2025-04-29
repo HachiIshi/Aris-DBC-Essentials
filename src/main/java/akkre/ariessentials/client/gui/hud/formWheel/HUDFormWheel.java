@@ -1,18 +1,18 @@
-package kamkeel.npcdbc.client.gui.hud.formWheel;
+package akkre.ariessentials.client.gui.hud.formWheel;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.KeyHandler;
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectForm;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.data.FormWheelData;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.form.DBCRequestFormWheel;
-import kamkeel.npcdbc.network.packets.form.DBCSelectForm;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.KeyHandler;
+import akkre.ariessentials.client.gui.component.SubGuiSelectForm;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.data.FormWheelData;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.form.DBCRequestFormWheel;
+import akkre.ariessentials.network.packets.form.DBCSelectForm;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.ScaledResolution;
@@ -33,7 +33,7 @@ import org.lwjgl.opengl.GL12;
 
 import java.util.HashMap;
 
-import static kamkeel.npcdbc.constants.DBCForm.*;
+import static akkre.ariessentials.constants.DBCForm.*;
 import static org.lwjgl.opengl.GL11.*;
 
 public class HUDFormWheel extends GuiNPCInterface implements ISubGuiListener {

@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
 import noppes.npcs.client.renderer.RenderNPCInterface;
 import noppes.npcs.entity.EntityNPCInterface;

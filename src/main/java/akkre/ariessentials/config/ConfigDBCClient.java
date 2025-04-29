@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.config;
+package akkre.ariessentials.config;
 
-import kamkeel.npcdbc.client.ClientProxy;
+import akkre.ariessentials.client.ClientProxy;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 

@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.client.shader;
+package akkre.ariessentials.client.shader;
 
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.config.ConfigDBCClient;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.config.ConfigDBCClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.util.ResourceLocation;

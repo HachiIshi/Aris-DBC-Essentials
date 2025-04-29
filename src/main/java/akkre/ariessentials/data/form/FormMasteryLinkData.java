@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.form.IFormMasteryLinkData;
-import kamkeel.npcdbc.controllers.FormController;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.form.IFormMasteryLinkData;
+import akkre.ariessentials.controllers.FormController;
 import net.minecraft.nbt.NBTTagCompound;
 
 import java.util.HashMap;

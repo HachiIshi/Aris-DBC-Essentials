@@ -1,16 +1,16 @@
-package kamkeel.npcdbc.api;
+package akkre.ariessentials.api;
 
 import cpw.mods.fml.common.Loader;
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.aura.IAuraHandler;
-import kamkeel.npcdbc.api.effect.IBonusHandler;
-import kamkeel.npcdbc.api.effect.IStatusEffectHandler;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.api.form.IFormHandler;
-import kamkeel.npcdbc.api.npc.IDBCDisplay;
-import kamkeel.npcdbc.api.npc.IDBCStats;
-import kamkeel.npcdbc.api.outline.IOutline;
-import kamkeel.npcdbc.api.outline.IOutlineHandler;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.aura.IAuraHandler;
+import akkre.ariessentials.api.effect.IBonusHandler;
+import akkre.ariessentials.api.effect.IStatusEffectHandler;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.api.form.IFormHandler;
+import akkre.ariessentials.api.npc.IDBCDisplay;
+import akkre.ariessentials.api.npc.IDBCStats;
+import akkre.ariessentials.api.outline.IOutline;
+import akkre.ariessentials.api.outline.IOutlineHandler;
 import noppes.npcs.api.entity.ICustomNpc;
 import noppes.npcs.api.entity.IPlayer;
 import noppes.npcs.entity.EntityNPCInterface;
@@ -29,7 +29,7 @@ public abstract class AbstractDBCAPI {
             return null;
         } else {
             try {
-                Class<?> c = Class.forName("kamkeel.npcdbc.scripted.DBCAPI");
+                Class<?> c = Class.forName("akkre.ariessentials.scripted.DBCAPI");
                 instance = (AbstractDBCAPI) c.getMethod("Instance").invoke(null);
             } catch (Exception ignored) {
 

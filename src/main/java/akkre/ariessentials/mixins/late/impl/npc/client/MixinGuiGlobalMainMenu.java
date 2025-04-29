@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalIntRef;
-import kamkeel.npcdbc.client.gui.global.auras.GuiNPCManageAuras;
-import kamkeel.npcdbc.client.gui.global.form.GuiNPCManageForms;
-import kamkeel.npcdbc.client.gui.global.outline.GuiNPCManageOutlines;
+import akkre.ariessentials.client.gui.global.auras.GuiNPCManageAuras;
+import akkre.ariessentials.client.gui.global.form.GuiNPCManageForms;
+import akkre.ariessentials.client.gui.global.outline.GuiNPCManageOutlines;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.gui.mainmenu.GuiNPCGlobalMainMenu;

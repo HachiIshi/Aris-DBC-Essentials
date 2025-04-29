@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.data.statuseffect;
+package akkre.ariessentials.data.statuseffect;
 
-import kamkeel.npcdbc.api.effect.IStatusEffect;
+import akkre.ariessentials.api.effect.IStatusEffect;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class StatusEffect implements IStatusEffect {

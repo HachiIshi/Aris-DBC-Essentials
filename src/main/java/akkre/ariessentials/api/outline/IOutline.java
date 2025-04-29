@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.api.outline;
+package akkre.ariessentials.api.outline;
 
-import kamkeel.npcdbc.data.outline.Outline;
+import akkre.ariessentials.data.outline.Outline;
 
 public interface IOutline {
 

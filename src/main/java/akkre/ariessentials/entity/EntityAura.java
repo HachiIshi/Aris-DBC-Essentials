@@ -1,28 +1,28 @@
-package kamkeel.npcdbc.entity;
+package akkre.ariessentials.entity;
 
 import JinRyuu.DragonBC.common.Npcs.EntityAuraRing;
 import JinRyuu.JRMCore.client.config.jrmc.JGConfigClientSettings;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.ParticleFormHandler;
-import kamkeel.npcdbc.client.gui.global.auras.SubGuiAuraDisplay;
-import kamkeel.npcdbc.client.sound.AuraSound;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes3D;
-import kamkeel.npcdbc.data.IAuraData;
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.aura.AuraDisplay;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.mixins.early.IEntityMC;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
-import kamkeel.npcdbc.util.PlayerDataUtil;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.ParticleFormHandler;
+import akkre.ariessentials.client.gui.global.auras.SubGuiAuraDisplay;
+import akkre.ariessentials.client.sound.AuraSound;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.constants.enums.EnumAuraTypes3D;
+import akkre.ariessentials.data.IAuraData;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.aura.AuraDisplay;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.mixins.early.IEntityMC;
+import akkre.ariessentials.mixins.late.INPCDisplay;
+import akkre.ariessentials.util.PlayerDataUtil;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -32,8 +32,8 @@ import noppes.npcs.entity.EntityNPCInterface;
 
 import java.util.HashMap;
 
-import static kamkeel.npcdbc.constants.enums.EnumAuraTypes3D.Base;
-import static kamkeel.npcdbc.constants.enums.EnumAuraTypes3D.None;
+import static akkre.ariessentials.constants.enums.EnumAuraTypes3D.Base;
+import static akkre.ariessentials.constants.enums.EnumAuraTypes3D.None;
 
 public class EntityAura extends Entity {
 

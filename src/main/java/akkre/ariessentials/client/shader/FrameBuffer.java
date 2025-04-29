@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.shader;
+package akkre.ariessentials.client.shader;
 
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.texture.TextureUtil;

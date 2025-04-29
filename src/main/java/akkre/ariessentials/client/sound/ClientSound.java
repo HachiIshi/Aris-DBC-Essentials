@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.client.sound;
+package akkre.ariessentials.client.sound;
 
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.PlaySound;
-import kamkeel.npcdbc.network.packets.StopSound;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.PlaySound;
+import akkre.ariessentials.network.packets.StopSound;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSound;
 import net.minecraft.client.audio.SoundCategory;

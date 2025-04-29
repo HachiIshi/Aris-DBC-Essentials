@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.client.gui.hud;
+package akkre.ariessentials.client.gui.hud;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.utils.Color;
-import kamkeel.npcdbc.config.ConfigDBCClient;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.utils.Color;
+import akkre.ariessentials.config.ConfigDBCClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;

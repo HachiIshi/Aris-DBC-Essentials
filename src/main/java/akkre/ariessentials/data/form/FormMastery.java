@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data.form;
+package akkre.ariessentials.data.form;
 
-import kamkeel.npcdbc.api.form.IFormMastery;
-import kamkeel.npcdbc.api.form.IFormMasteryLinkData;
+import akkre.ariessentials.api.form.IFormMastery;
+import akkre.ariessentials.api.form.IFormMasteryLinkData;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.util.ValueUtil;
 

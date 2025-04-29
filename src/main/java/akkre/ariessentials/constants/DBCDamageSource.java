@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 public class DBCDamageSource {
     public static int UNKNOWN = 0;

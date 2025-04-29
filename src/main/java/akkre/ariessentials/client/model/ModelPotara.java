@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.model;
+package akkre.ariessentials.client.model;
 
 
 import JinRyuu.JRMCore.entity.ModelBipedBody;

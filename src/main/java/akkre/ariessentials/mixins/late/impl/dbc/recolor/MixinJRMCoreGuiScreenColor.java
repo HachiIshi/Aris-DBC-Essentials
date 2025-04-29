@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc.recolor;
+package akkre.ariessentials.mixins.late.impl.dbc.recolor;
 
 import JinRyuu.JRMCore.JRMCoreGuiScreen;
-import kamkeel.npcdbc.client.ColorMode;
-import kamkeel.npcdbc.config.ConfigDBCClient;
+import akkre.ariessentials.client.ColorMode;
+import akkre.ariessentials.config.ConfigDBCClient;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiScreen;
 import org.spongepowered.asm.mixin.Mixin;

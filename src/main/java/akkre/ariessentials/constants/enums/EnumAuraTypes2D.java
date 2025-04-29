@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.constants.enums;
+package akkre.ariessentials.constants.enums;
 
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.data.IAuraData;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.data.IAuraData;
 
 import java.util.ArrayList;
 import java.util.List;

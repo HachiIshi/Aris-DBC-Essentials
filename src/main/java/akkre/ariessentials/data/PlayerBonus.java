@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data;
+package akkre.ariessentials.data;
 
-import kamkeel.npcdbc.api.effect.IPlayerBonus;
-import kamkeel.npcdbc.constants.DBCAttribute;
+import akkre.ariessentials.api.effect.IPlayerBonus;
+import akkre.ariessentials.constants.DBCAttribute;
 import net.minecraft.nbt.NBTTagCompound;
 
 public class PlayerBonus implements IPlayerBonus {

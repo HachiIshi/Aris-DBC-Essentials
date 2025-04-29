@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.network.packets.form;
+package akkre.ariessentials.network.packets.form;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.NetworkUtility;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.NetworkUtility;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;

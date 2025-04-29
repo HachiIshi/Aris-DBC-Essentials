@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.mixins.late.impl.EDE;
+package akkre.ariessentials.mixins.late.impl.EDE;
 
 import JinRyuu.JRMCore.JRMCoreConfig;
 import com.entitydamageeditor.events.EventSystem;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.data.dbcdata.DBCData;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import org.spongepowered.asm.mixin.Mixin;

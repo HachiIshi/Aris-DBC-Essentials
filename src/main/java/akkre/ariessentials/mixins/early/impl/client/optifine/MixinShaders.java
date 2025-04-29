@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.mixins.early.impl.client.optifine;
+package akkre.ariessentials.mixins.early.impl.client.optifine;
 
 
-import kamkeel.npcdbc.client.OptifineHelper;
-import kamkeel.npcdbc.client.shader.PostProcessing;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
+import akkre.ariessentials.client.OptifineHelper;
+import akkre.ariessentials.client.shader.PostProcessing;
+import akkre.ariessentials.client.shader.ShaderHelper;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Pseudo;
 import org.spongepowered.asm.mixin.Shadow;

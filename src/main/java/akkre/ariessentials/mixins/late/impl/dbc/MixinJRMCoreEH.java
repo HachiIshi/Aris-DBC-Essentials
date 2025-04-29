@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.JRMCoreEH;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalFloatRef;
 import com.llamalad7.mixinextras.sugar.ref.LocalRef;
-import kamkeel.npcdbc.constants.DBCDamageSource;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.scripted.DBCEventHooks;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.DBCUtils;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.constants.DBCDamageSource;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.scripted.DBCEventHooks;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.DBCUtils;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;

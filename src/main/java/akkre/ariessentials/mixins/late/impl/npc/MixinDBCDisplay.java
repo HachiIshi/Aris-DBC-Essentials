@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.mixins.late.impl.npc;
+package akkre.ariessentials.mixins.late.impl.npc;
 
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.DataDisplay;
 import noppes.npcs.entity.EntityNPCInterface;

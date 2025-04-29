@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.data.aura;
+package akkre.ariessentials.data.aura;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.api.aura.IAuraDisplay;
-import kamkeel.npcdbc.api.outline.IOutline;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes3D;
-import kamkeel.npcdbc.controllers.OutlineController;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.api.aura.IAuraDisplay;
+import akkre.ariessentials.api.outline.IOutline;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.constants.enums.EnumAuraTypes3D;
+import akkre.ariessentials.controllers.OutlineController;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.scripted.CustomNPCsException;
 import noppes.npcs.util.ValueUtil;

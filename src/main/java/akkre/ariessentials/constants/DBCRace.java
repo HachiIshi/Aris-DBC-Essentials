@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 public class DBCRace {
     public static final int ALL = -1;

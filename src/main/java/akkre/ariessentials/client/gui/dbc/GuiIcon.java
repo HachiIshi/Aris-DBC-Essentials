@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.gui.dbc;
+package akkre.ariessentials.client.gui.dbc;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;

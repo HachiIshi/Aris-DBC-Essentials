@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.form;
+package akkre.ariessentials.api.form;
 
 public interface IFormMasteryLinkData {
 

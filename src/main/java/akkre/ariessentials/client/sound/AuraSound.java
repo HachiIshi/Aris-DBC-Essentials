@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.client.sound;
+package akkre.ariessentials.client.sound;
 
-import kamkeel.npcdbc.client.gui.global.auras.SubGuiAuraDisplay;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.data.IAuraData;
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.client.gui.global.auras.SubGuiAuraDisplay;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.data.IAuraData;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

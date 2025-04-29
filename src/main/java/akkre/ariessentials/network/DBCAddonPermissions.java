@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.network;
+package akkre.ariessentials.network;
 
 import noppes.npcs.CustomNpcsPermissions;
 

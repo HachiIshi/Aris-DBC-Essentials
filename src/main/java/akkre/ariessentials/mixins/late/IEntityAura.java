@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
 import JinRyuu.DragonBC.common.Npcs.EntityAura2;
-import kamkeel.npcdbc.constants.enums.EnumAuraTypes2D;
-import kamkeel.npcdbc.data.IAuraData;
+import akkre.ariessentials.constants.enums.EnumAuraTypes2D;
+import akkre.ariessentials.data.IAuraData;
 import net.minecraft.entity.Entity;
 import org.spongepowered.asm.mixin.Unique;
 

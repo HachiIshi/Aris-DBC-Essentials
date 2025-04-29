@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
-import kamkeel.npcdbc.client.model.ModelDBC;
-import kamkeel.npcdbc.mixins.late.IModelMPM;
+import akkre.ariessentials.client.model.ModelDBC;
+import akkre.ariessentials.mixins.late.IModelMPM;
 import net.minecraft.client.model.ModelBase;
 import noppes.npcs.client.model.ModelNPCMale;
 import noppes.npcs.client.renderer.RenderCustomNpc;

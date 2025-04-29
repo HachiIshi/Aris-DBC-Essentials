@@ -1,14 +1,14 @@
-package kamkeel.npcdbc.network.packets;
+package akkre.ariessentials.network.packets;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.client.sound.SoundHandler;
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.util.ByteBufUtils;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.client.sound.SoundHandler;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.util.ByteBufUtils;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.client.model;
+package akkre.ariessentials.client.model;
 
-import kamkeel.npcdbc.data.npc.DBCDisplay;
+import akkre.ariessentials.data.npc.DBCDisplay;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;

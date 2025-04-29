@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.config;
+package akkre.ariessentials.config;
 
 import java.io.File;
 

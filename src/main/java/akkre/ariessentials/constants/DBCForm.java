@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 import JinRyuu.JRMCore.JRMCoreH;
 import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
-import kamkeel.npcdbc.util.DBCUtils;
+import akkre.ariessentials.util.DBCUtils;
 import noppes.npcs.util.ValueUtil;
 
 import java.util.HashMap;

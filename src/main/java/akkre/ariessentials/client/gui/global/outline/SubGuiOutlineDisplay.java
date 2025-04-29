@@ -1,12 +1,12 @@
-package kamkeel.npcdbc.client.gui.global.outline;
+package akkre.ariessentials.client.gui.global.outline;
 
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectOutline;
-import kamkeel.npcdbc.client.model.part.hair.DBCHair;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
+import akkre.ariessentials.client.gui.component.SubGuiSelectOutline;
+import akkre.ariessentials.client.model.part.hair.DBCHair;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.mixins.late.INPCDisplay;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.RenderHelper;

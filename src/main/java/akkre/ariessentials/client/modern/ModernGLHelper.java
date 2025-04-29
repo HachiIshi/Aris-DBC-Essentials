@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.client.modern;
+package akkre.ariessentials.client.modern;
 
-import kamkeel.npcdbc.client.shader.ShaderHelper;
+import akkre.ariessentials.client.shader.ShaderHelper;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL15;

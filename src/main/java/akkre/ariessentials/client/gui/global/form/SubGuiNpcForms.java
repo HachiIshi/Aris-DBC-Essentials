@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.client.gui.global.form;
+package akkre.ariessentials.client.gui.global.form;
 
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectForm;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.form.Form;
+import akkre.ariessentials.client.gui.component.SubGuiSelectForm;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.form.Form;
 import net.minecraft.client.gui.GuiButton;
 import noppes.npcs.client.gui.select.GuiSoundSelection;
 import noppes.npcs.client.gui.util.*;

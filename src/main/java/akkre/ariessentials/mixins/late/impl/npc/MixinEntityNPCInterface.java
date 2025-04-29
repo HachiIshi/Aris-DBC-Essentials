@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.npc;
+package akkre.ariessentials.mixins.late.impl.npc;
 
 import cpw.mods.fml.common.registry.IEntityAdditionalSpawnData;
 import net.minecraft.command.ICommandSender;

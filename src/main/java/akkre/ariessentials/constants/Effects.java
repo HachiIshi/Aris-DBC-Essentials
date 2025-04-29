@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants;
+package akkre.ariessentials.constants;
 
 public class Effects {
     public static final int REGEN_HEALTH = 1;

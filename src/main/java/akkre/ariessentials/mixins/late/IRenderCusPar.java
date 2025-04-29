@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late;
+package akkre.ariessentials.mixins.late;
 
 import JinRyuu.JRMCore.entity.EntityCusPar;
 import JinRyuu.JRMCore.entity.RenderCusPar;

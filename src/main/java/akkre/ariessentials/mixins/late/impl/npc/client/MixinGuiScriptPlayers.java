@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late.impl.npc.client;
+package akkre.ariessentials.mixins.late.impl.npc.client;
 
-import kamkeel.npcdbc.constants.DBCScriptType;
+import akkre.ariessentials.constants.DBCScriptType;
 import noppes.npcs.client.gui.script.GuiScriptInterface;
 import noppes.npcs.client.gui.script.GuiScriptPlayers;
 import org.spongepowered.asm.mixin.Mixin;

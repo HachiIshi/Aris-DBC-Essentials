@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.config;
+package akkre.ariessentials.config;
 
 import cpw.mods.fml.common.FMLLog;
 import net.minecraftforge.common.config.Configuration;

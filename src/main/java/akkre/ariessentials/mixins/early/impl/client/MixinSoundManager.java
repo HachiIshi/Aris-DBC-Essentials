@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalFloatRef;
-import kamkeel.npcdbc.client.sound.ClientSound;
+import akkre.ariessentials.client.sound.ClientSound;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.SoundManager;
 import org.spongepowered.asm.mixin.Mixin;

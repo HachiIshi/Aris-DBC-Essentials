@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.combat;
+package akkre.ariessentials.combat;
 
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.PlaySound;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.PlaySound;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockTallGrass;
 import net.minecraft.block.material.Material;

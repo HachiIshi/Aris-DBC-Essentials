@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.data.outline;
+package akkre.ariessentials.data.outline;
 
-import kamkeel.npcdbc.api.outline.IOutline;
-import kamkeel.npcdbc.client.utils.Color;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.controllers.OutlineController;
+import akkre.ariessentials.api.outline.IOutline;
+import akkre.ariessentials.client.utils.Color;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.controllers.OutlineController;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.controllers.AnimationController;
 import noppes.npcs.util.ValueUtil;

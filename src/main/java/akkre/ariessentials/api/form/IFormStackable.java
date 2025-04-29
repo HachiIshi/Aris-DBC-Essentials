@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.form;
+package akkre.ariessentials.api.form;
 
 /**
  * This interface is heavily based on controlling Forms interacting with other forms

@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.items;
+package akkre.ariessentials.items;
 
-import kamkeel.npcdbc.LocalizationHelper;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.controllers.StatusEffectController;
+import akkre.ariessentials.LocalizationHelper;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.controllers.StatusEffectController;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemFood;

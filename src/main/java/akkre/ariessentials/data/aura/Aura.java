@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.data.aura;
+package akkre.ariessentials.data.aura;
 
-import kamkeel.npcdbc.api.aura.IAura;
-import kamkeel.npcdbc.api.aura.IAuraDisplay;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.api.aura.IAura;
+import akkre.ariessentials.api.aura.IAuraDisplay;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.api.entity.IPlayer;

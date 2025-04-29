@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.data.statuseffect.types;
+package akkre.ariessentials.data.statuseffect.types;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.constants.enums.EnumPotaraTypes;
-import kamkeel.npcdbc.controllers.BonusController;
-import kamkeel.npcdbc.data.PlayerBonus;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.constants.enums.EnumPotaraTypes;
+import akkre.ariessentials.controllers.BonusController;
+import akkre.ariessentials.data.PlayerBonus;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class JoinBugFusion extends StatusEffect {

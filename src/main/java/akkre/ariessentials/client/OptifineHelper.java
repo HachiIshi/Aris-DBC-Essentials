@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import static kamkeel.npcdbc.client.shader.PostProcessing.mc;
+import static akkre.ariessentials.client.shader.PostProcessing.mc;
 
 public class OptifineHelper {
     public static HashMap<Integer, Entity> POSTPROCESSING_ENTITY_MAP = new LinkedHashMap<>();

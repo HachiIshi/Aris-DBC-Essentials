@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.client.gui.component;
+package akkre.ariessentials.client.gui.component;
 
-import kamkeel.npcdbc.client.gui.inventory.GuiDBC;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.form.Form;
+import akkre.ariessentials.client.gui.inventory.GuiDBC;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.form.Form;
 import kamkeel.util.TextSplitter;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.util.StatCollector;

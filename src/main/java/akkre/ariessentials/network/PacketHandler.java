@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.network;
+package akkre.ariessentials.network;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.network.FMLEventChannel;
@@ -6,14 +6,14 @@ import cpw.mods.fml.common.network.FMLNetworkEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.internal.FMLProxyPacket;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.network.packets.*;
-import kamkeel.npcdbc.network.packets.aura.*;
-import kamkeel.npcdbc.network.packets.form.*;
-import kamkeel.npcdbc.network.packets.outline.DBCGetOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCRemoveOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCRequestOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCSaveOutline;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.network.packets.*;
+import akkre.ariessentials.network.packets.aura.*;
+import akkre.ariessentials.network.packets.form.*;
+import akkre.ariessentials.network.packets.outline.DBCGetOutline;
+import akkre.ariessentials.network.packets.outline.DBCRemoveOutline;
+import akkre.ariessentials.network.packets.outline.DBCRequestOutline;
+import akkre.ariessentials.network.packets.outline.DBCSaveOutline;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityTracker;
 import net.minecraft.entity.player.EntityPlayerMP;

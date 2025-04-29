@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.client.gui.dbc;
+package akkre.ariessentials.client.gui.dbc;
 
 import JinRyuu.JRMCore.*;
 import cpw.mods.fml.common.FMLCommonHandler;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.gui.dbc.constants.GuiInfo;
-import kamkeel.npcdbc.config.ConfigDBCClient;
-import kamkeel.npcdbc.mixins.late.IDBCGuiScreen;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.gui.dbc.constants.GuiInfo;
+import akkre.ariessentials.config.ConfigDBCClient;
+import akkre.ariessentials.mixins.late.IDBCGuiScreen;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiConfirmOpenLink;
 import net.minecraft.client.gui.GuiScreen;

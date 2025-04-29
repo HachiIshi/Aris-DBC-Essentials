@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.data;
+package akkre.ariessentials.data;
 
 import net.minecraft.nbt.NBTTagCompound;
 

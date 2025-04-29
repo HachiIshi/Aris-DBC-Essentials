@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalRef;
-import kamkeel.npcdbc.client.ClientProxy;
+import akkre.ariessentials.client.ClientProxy;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.client.renderer.RenderGlobal;

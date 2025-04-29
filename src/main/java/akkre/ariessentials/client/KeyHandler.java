@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client;
+package akkre.ariessentials.client;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraft.client.settings.KeyBinding;

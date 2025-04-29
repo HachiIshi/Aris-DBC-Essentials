@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.JRMCore.server.config.dbc.JGConfigUltraInstinct;
 import net.minecraftforge.common.config.Configuration;
@@ -9,8 +9,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static kamkeel.npcdbc.util.DBCUtils.CONFIG_UI_NAME;
-import static kamkeel.npcdbc.util.DBCUtils.cCONFIG_UI_NAME;
+import static akkre.ariessentials.util.DBCUtils.CONFIG_UI_NAME;
+import static akkre.ariessentials.util.DBCUtils.cCONFIG_UI_NAME;
 
 @Mixin(value = JGConfigUltraInstinct.class, remap = false)
 public class MixinJGConfigUltraInstinct {

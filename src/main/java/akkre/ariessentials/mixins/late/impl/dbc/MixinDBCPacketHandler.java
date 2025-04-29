@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.late.impl.dbc;
+package akkre.ariessentials.mixins.late.impl.dbc;
 
 import JinRyuu.DragonBC.common.DBCConfig;
 import JinRyuu.JRMCore.JRMCoreH;
@@ -9,18 +9,18 @@ import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalBooleanRef;
 import com.llamalad7.mixinextras.sugar.ref.LocalByteRef;
 import com.llamalad7.mixinextras.sugar.ref.LocalRef;
-import kamkeel.npcdbc.CommonProxy;
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.constants.DBCRace;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.controllers.StatusEffectController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.scripted.DBCEventHooks;
-import kamkeel.npcdbc.scripted.DBCPlayerEvent;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.CommonProxy;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.constants.DBCRace;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.controllers.StatusEffectController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.scripted.DBCEventHooks;
+import akkre.ariessentials.scripted.DBCPlayerEvent;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
@@ -31,7 +31,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static kamkeel.npcdbc.constants.DBCForm.*;
+import static akkre.ariessentials.constants.DBCForm.*;
 
 @Mixin(value = DBCPacketHandlerServer.class, remap = false)
 public class MixinDBCPacketHandler {

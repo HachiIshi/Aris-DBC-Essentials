@@ -1,16 +1,16 @@
-package kamkeel.npcdbc.network.packets.form;
+package akkre.ariessentials.network.packets.form;
 
 import JinRyuu.JRMCore.JRMCoreH;
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.config.ConfigDBCGameplay;
-import kamkeel.npcdbc.constants.DBCForm;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.NetworkUtility;
-import kamkeel.npcdbc.util.PlayerDataUtil;
+import akkre.ariessentials.config.ConfigDBCGameplay;
+import akkre.ariessentials.constants.DBCForm;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.NetworkUtility;
+import akkre.ariessentials.util.PlayerDataUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
@@ -21,7 +21,7 @@ import noppes.npcs.controllers.data.PlayerData;
 
 import java.io.IOException;
 
-import static kamkeel.npcdbc.constants.DBCForm.*;
+import static akkre.ariessentials.constants.DBCForm.*;
 
 public final class DBCSelectForm extends AbstractPacket {
     public static final String packetName = "NPC|SelectForm";

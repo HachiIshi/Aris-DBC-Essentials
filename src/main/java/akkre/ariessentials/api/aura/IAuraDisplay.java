@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.api.aura;
+package akkre.ariessentials.api.aura;
 
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.api.outline.IOutline;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.api.outline.IOutline;
 
 public interface IAuraDisplay {
 

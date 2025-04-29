@@ -1,8 +1,8 @@
-package kamkeel.npcdbc.combat;
+package akkre.ariessentials.combat;
 
-import kamkeel.npcdbc.data.SoundSource;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.PlaySound;
+import akkre.ariessentials.data.SoundSource;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.PlaySound;
 import net.minecraft.entity.Entity;
 
 import java.util.Random;

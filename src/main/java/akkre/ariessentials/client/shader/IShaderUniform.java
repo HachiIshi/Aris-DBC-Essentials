@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.shader;
+package akkre.ariessentials.client.shader;
 
 /**
  * A Callback for when a shader is called. Used to define shader uniforms.

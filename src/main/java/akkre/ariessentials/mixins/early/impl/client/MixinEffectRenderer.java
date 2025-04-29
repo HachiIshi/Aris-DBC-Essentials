@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.mixins.early.impl.client;
+package akkre.ariessentials.mixins.early.impl.client;
 
 import net.minecraft.client.particle.EffectRenderer;
 import org.spongepowered.asm.mixin.Mixin;

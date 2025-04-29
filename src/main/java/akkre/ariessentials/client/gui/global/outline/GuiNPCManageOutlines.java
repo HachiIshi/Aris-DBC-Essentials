@@ -1,15 +1,15 @@
-package kamkeel.npcdbc.client.gui.global.outline;
+package akkre.ariessentials.client.gui.global.outline;
 
-import kamkeel.npcdbc.client.gui.component.SubGuiSelectOutline;
-import kamkeel.npcdbc.controllers.OutlineController;
-import kamkeel.npcdbc.data.npc.DBCDisplay;
-import kamkeel.npcdbc.data.outline.Outline;
-import kamkeel.npcdbc.mixins.late.INPCDisplay;
-import kamkeel.npcdbc.network.PacketHandler;
-import kamkeel.npcdbc.network.packets.outline.DBCGetOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCRemoveOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCRequestOutline;
-import kamkeel.npcdbc.network.packets.outline.DBCSaveOutline;
+import akkre.ariessentials.client.gui.component.SubGuiSelectOutline;
+import akkre.ariessentials.controllers.OutlineController;
+import akkre.ariessentials.data.npc.DBCDisplay;
+import akkre.ariessentials.data.outline.Outline;
+import akkre.ariessentials.mixins.late.INPCDisplay;
+import akkre.ariessentials.network.PacketHandler;
+import akkre.ariessentials.network.packets.outline.DBCGetOutline;
+import akkre.ariessentials.network.packets.outline.DBCRemoveOutline;
+import akkre.ariessentials.network.packets.outline.DBCRequestOutline;
+import akkre.ariessentials.network.packets.outline.DBCSaveOutline;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiYesNo;

@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.mixins.early.impl.client.optifine;
+package akkre.ariessentials.mixins.early.impl.client.optifine;
 
 
-import kamkeel.npcdbc.entity.EntityAura;
+import akkre.ariessentials.entity.EntityAura;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;

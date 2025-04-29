@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.config;
+package akkre.ariessentials.config;
 
 import JinRyuu.JRMCore.JRMCoreH;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.client.ClientCache;
+import akkre.ariessentials.client.ClientCache;
 import net.minecraftforge.common.config.Configuration;
 import noppes.npcs.util.ValueUtil;
 import org.apache.logging.log4j.Level;

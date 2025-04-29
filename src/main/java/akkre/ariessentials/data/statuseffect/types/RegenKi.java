@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.data.statuseffect.types;
+package akkre.ariessentials.data.statuseffect.types;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.config.ConfigDBCEffects;
-import kamkeel.npcdbc.constants.Effects;
-import kamkeel.npcdbc.data.dbcdata.DBCData;
-import kamkeel.npcdbc.data.statuseffect.PlayerEffect;
-import kamkeel.npcdbc.data.statuseffect.StatusEffect;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.config.ConfigDBCEffects;
+import akkre.ariessentials.constants.Effects;
+import akkre.ariessentials.data.dbcdata.DBCData;
+import akkre.ariessentials.data.statuseffect.PlayerEffect;
+import akkre.ariessentials.data.statuseffect.StatusEffect;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class RegenKi extends StatusEffect {

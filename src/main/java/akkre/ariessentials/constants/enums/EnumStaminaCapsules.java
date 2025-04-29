@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.constants.enums;
+package akkre.ariessentials.constants.enums;
 
-import static kamkeel.npcdbc.config.ConfigCapsules.*;
+import static akkre.ariessentials.config.ConfigCapsules.*;
 
 public enum EnumStaminaCapsules {
 

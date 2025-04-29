@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.mixins.late.impl.npc;
+package akkre.ariessentials.mixins.late.impl.npc;
 
-import kamkeel.npcdbc.data.PlayerDBCInfo;
-import kamkeel.npcdbc.mixins.late.IPlayerDBCInfo;
+import akkre.ariessentials.data.PlayerDBCInfo;
+import akkre.ariessentials.mixins.late.IPlayerDBCInfo;
 import noppes.npcs.controllers.data.PlayerData;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.client.gui.dbc;
+package akkre.ariessentials.client.gui.dbc;
 
 import JinRyuu.JRMCore.JRMCoreH;
-import kamkeel.npcdbc.CustomNpcPlusDBC;
+import akkre.ariessentials.CustomNpcPlusDBC;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.util.ResourceLocation;

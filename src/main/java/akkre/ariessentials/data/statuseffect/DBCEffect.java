@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.data.statuseffect;
+package akkre.ariessentials.data.statuseffect;
 
 /**
  * This is knowledge base class for

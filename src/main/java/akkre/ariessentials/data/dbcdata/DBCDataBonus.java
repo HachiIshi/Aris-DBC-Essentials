@@ -1,9 +1,9 @@
-package kamkeel.npcdbc.data.dbcdata;
+package akkre.ariessentials.data.dbcdata;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
-import kamkeel.npcdbc.controllers.BonusController;
-import kamkeel.npcdbc.data.PlayerBonus;
+import akkre.ariessentials.controllers.BonusController;
+import akkre.ariessentials.data.PlayerBonus;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 

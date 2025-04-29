@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api.aura;
+package akkre.ariessentials.api.aura;
 
 public interface IAuraHandler {
     IAura saveAura(IAura var1);

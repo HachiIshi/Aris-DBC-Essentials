@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.constants.enums;
+package akkre.ariessentials.constants.enums;
 
 public enum EnumNBTType {
     STRING,

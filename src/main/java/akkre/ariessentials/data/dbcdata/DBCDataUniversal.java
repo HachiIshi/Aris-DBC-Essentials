@@ -1,13 +1,13 @@
-package kamkeel.npcdbc.data.dbcdata;
+package akkre.ariessentials.data.dbcdata;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import kamkeel.npcdbc.client.ClientCache;
-import kamkeel.npcdbc.controllers.AuraController;
-import kamkeel.npcdbc.data.aura.Aura;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.util.PlayerDataUtil;
-import kamkeel.npcdbc.util.Utility;
+import akkre.ariessentials.client.ClientCache;
+import akkre.ariessentials.controllers.AuraController;
+import akkre.ariessentials.data.aura.Aura;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.util.PlayerDataUtil;
+import akkre.ariessentials.util.Utility;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import noppes.npcs.config.ConfigClient;

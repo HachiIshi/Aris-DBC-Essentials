@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.client.model.part.hair;
+package akkre.ariessentials.client.model.part.hair;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

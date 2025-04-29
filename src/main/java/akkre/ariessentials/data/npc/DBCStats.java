@@ -1,7 +1,7 @@
-package kamkeel.npcdbc.data.npc;
+package akkre.ariessentials.data.npc;
 
-import kamkeel.npcdbc.api.npc.IDBCStats;
-import kamkeel.npcdbc.config.ConfigDBCGeneral;
+import akkre.ariessentials.api.npc.IDBCStats;
+import akkre.ariessentials.config.ConfigDBCGeneral;
 import net.minecraft.nbt.NBTTagCompound;
 import noppes.npcs.entity.EntityNPCInterface;
 import noppes.npcs.util.ValueUtil;

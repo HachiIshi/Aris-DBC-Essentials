@@ -1,11 +1,11 @@
-package kamkeel.npcdbc;
+package akkre.ariessentials;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
-import kamkeel.npcdbc.api.AbstractDBCAPI;
+import akkre.ariessentials.api.AbstractDBCAPI;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;

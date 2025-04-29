@@ -1,10 +1,10 @@
-package kamkeel.npcdbc.client.render;
+package akkre.ariessentials.client.render;
 
-import kamkeel.npcdbc.CustomNpcPlusDBC;
-import kamkeel.npcdbc.client.ClientProxy;
-import kamkeel.npcdbc.client.shader.ShaderHelper;
-import kamkeel.npcdbc.client.shader.ShaderResources;
-import kamkeel.npcdbc.entity.EntityAura;
+import akkre.ariessentials.CustomNpcPlusDBC;
+import akkre.ariessentials.client.ClientProxy;
+import akkre.ariessentials.client.shader.ShaderHelper;
+import akkre.ariessentials.client.shader.ShaderResources;
+import akkre.ariessentials.entity.EntityAura;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.RenderManager;

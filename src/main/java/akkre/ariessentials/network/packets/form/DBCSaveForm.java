@@ -1,11 +1,11 @@
-package kamkeel.npcdbc.network.packets.form;
+package akkre.ariessentials.network.packets.form;
 
 import io.netty.buffer.ByteBuf;
-import kamkeel.npcdbc.api.form.IForm;
-import kamkeel.npcdbc.controllers.FormController;
-import kamkeel.npcdbc.data.form.Form;
-import kamkeel.npcdbc.network.AbstractPacket;
-import kamkeel.npcdbc.network.NetworkUtility;
+import akkre.ariessentials.api.form.IForm;
+import akkre.ariessentials.controllers.FormController;
+import akkre.ariessentials.data.form.Form;
+import akkre.ariessentials.network.AbstractPacket;
+import akkre.ariessentials.network.NetworkUtility;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
@@ -14,7 +14,7 @@ import noppes.npcs.Server;
 
 import java.io.IOException;
 
-import static kamkeel.npcdbc.network.DBCAddonPermissions.GLOBAL_DBCFORM;
+import static akkre.ariessentials.network.DBCAddonPermissions.GLOBAL_DBCFORM;
 
 public class DBCSaveForm extends AbstractPacket {
     public static final String packetName = "NPC|SaveForm";

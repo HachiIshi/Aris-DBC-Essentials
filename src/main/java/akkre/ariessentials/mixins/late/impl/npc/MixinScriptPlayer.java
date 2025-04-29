@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.mixins.late.impl.npc;
+package akkre.ariessentials.mixins.late.impl.npc;
 
-import kamkeel.npcdbc.scripted.ScriptDBCAddon;
+import akkre.ariessentials.scripted.ScriptDBCAddon;
 import net.minecraft.entity.player.EntityPlayerMP;
 import noppes.npcs.scripted.entity.ScriptDBCPlayer;
 import noppes.npcs.scripted.entity.ScriptLivingBase;

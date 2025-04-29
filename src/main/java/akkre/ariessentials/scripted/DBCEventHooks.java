@@ -1,6 +1,6 @@
-package kamkeel.npcdbc.scripted;
+package akkre.ariessentials.scripted;
 
-import kamkeel.npcdbc.constants.DBCScriptType;
+import akkre.ariessentials.constants.DBCScriptType;
 import noppes.npcs.controllers.ScriptController;
 import noppes.npcs.controllers.data.PlayerDataScript;
 import noppes.npcs.scripted.NpcAPI;

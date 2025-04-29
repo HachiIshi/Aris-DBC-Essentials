@@ -1,4 +1,4 @@
-package kamkeel.npcdbc.api;
+package akkre.ariessentials.api;
 
 public interface IKiAttack {
 
